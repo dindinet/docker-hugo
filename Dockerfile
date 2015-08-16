@@ -9,4 +9,4 @@ ENV HUGO_BASE_URL http://dklongley.koding.io
 
 CMD  ["/bin/hugo", "server", "-b","http://dklongley.koding.io", "-w", "-s", "/blog"]
 
-EXPOSE 1313
+EXPOSE 80
